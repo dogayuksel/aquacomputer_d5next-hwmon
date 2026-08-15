@@ -34,9 +34,9 @@ directly, as well as configured as DC or PWM using pwm[1-4]_mode. Aquaero 6 supp
 PWM for all four fans, while the Aquaero 5 supports it only for the fourth fan.
 Temperature offsets can also be controlled.
 
-Additionally, Aquaero devices also expose twenty temperature sensors and twelve flow
-sensors from devices connected via Aquabus. The assigned sensor number is
-predetermined by the Aquabus address of the device.
+Additionally, Aquaero devices also expose twenty temperature sensors, twelve flow
+sensors and the first pump speed from devices connected via Aquabus. The assigned
+sensor number is predetermined by the Aquabus address of the device.
 
 For the D5 Next pump, available sensors are pump and fan speed, power, voltage
 and current, as well as coolant temperature and eight virtual temp sensors. Also
